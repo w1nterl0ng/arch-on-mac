@@ -234,6 +234,14 @@ Exit session.
 
 ## Step 7 — Configure terminal
 
+Optionally, you could just install `alacritty`.
+
+```bash
+sudo pacman -S alacritty
+```
+
+Or, stick with `foot`
+
 Edit Niri config:
 
 ```bash
