@@ -393,6 +393,15 @@ sudo rsync -aAXH --numeric-ids --one-file-system --info=progress2 \
 
 Noctalia’s docs recommend installing via AUR using your helper (examples use `paru`). ([docs.noctalia.dev](https://docs.noctalia.dev/getting-started/installation/?utm_source=chatgpt.com))
 
+Install and build yay
+
+```bash
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+```
+
+
 Using `yay`:
 
 ```bash
